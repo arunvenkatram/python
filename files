@@ -1,0 +1,8 @@
+#!/bin/python
+import os
+user_file = open("users", "r+")
+print "editing file now "
+user_file.seek(5, 5)
+user_file.write("\nArun \n")
+user_file.write("This is a new \n")
+user_file.close()

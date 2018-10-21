@@ -1,0 +1,4 @@
+#!/bin/python
+import os
+with open("users", 'a') as read_file:
+    read_file.write("this is me arun\n")
